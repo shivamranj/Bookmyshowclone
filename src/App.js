@@ -1,26 +1,30 @@
-import React from 'react';
+import React,{Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
+import './style.css';
+import bookimage from './bookimage.PNG'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+class App extends Component
+{
+  constructor(props)
+  {
+    super(props)
+
+  }
+render()
+{     
+  return(    
+    <div className="top_div">
+    <div className="top_div1">
+    <div className="brand">
+    <img src={bookimage} />
+    <input type="text" placeholder="Search for Movies,Events,Play,Sports and Activities" id="search_box"/>
+    </div> </div>
+    <div className="top_div2"></div>
     </div>
-  );
+
+  )
 }
 
+}
 export default App;

@@ -1,0 +1,40 @@
+.top_div
+{
+color: black;
+}
+.top_div1
+{
+    background-color: #333545;
+    height: 65px;
+}
+.top_div2
+{
+    background-color: #1f2533;
+    height: 80px; 
+}
+p{
+    margin: 0;
+}
+text{
+    font: 20px Roboto sans-serif;
+    margin-left: 10px;
+    color: white;
+}
+.brand
+{
+padding-top: 15px;
+}
+#search_box
+{
+    margin-left: 12px;
+    width: 324px;
+}
+img
+{
+    height: 20px;
+    width: 70px;
+}
+/**{
+    border: 2px solid red ;
+    margin: 2px;
+}*/
